@@ -8,7 +8,7 @@ export default function Products(props) {
     <>
       <div className="">
         <div className="me-4 d-flex flex-column align-items-center">
-          <img className="img mb-3" src={product.image} />
+          <img className="img mb-3" src={product.image} alt="" />
           <h5>{product.name}</h5>
           <h4>{product.price}</h4>
           <button
